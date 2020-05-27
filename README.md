@@ -16,6 +16,9 @@ A traves de Android Studio.
 * [LibGDX](https://libgdx.badlogicgames.com/) - Framework para el desarrollo de videojuegos.
 * [Assets](https://www.patreon.com/ansimuz) - Autor de los assets que he utilizado.
 
+## Más información detallada.
+* [Info](https://drive.google.com/open?id=15G8_Vk9IzVCXN2sIFdiZbuf6Lf-VMuh9tSi0VK9ZtnY)
+
 ## Autores ✒️
 * **Jesús González** - *Proyecto*
 * **Jesús González** - *Música* - [SoundCloud](https://soundcloud.com/binomial-sound)
