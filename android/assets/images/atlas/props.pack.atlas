@@ -1,0 +1,258 @@
+
+props.pack.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+antenna
+  rotate: false
+  xy: 113, 30
+  size: 22, 96
+  orig: 22, 96
+  offset: 0, 0
+  index: -1
+banner-arrow
+  rotate: false
+  xy: 296, 14
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+banner-big-1
+  rotate: false
+  xy: 2, 34
+  size: 35, 92
+  orig: 35, 92
+  offset: 0, 0
+  index: -1
+banner-big-2
+  rotate: false
+  xy: 39, 34
+  size: 35, 92
+  orig: 35, 92
+  offset: 0, 0
+  index: -1
+banner-big-4
+  rotate: false
+  xy: 39, 34
+  size: 35, 92
+  orig: 35, 92
+  offset: 0, 0
+  index: -1
+banner-big-3
+  rotate: false
+  xy: 76, 34
+  size: 35, 92
+  orig: 35, 92
+  offset: 0, 0
+  index: -1
+banner-coke-1
+  rotate: false
+  xy: 137, 48
+  size: 27, 78
+  orig: 27, 78
+  offset: 0, 0
+  index: -1
+banner-coke-2
+  rotate: false
+  xy: 166, 48
+  size: 27, 78
+  orig: 27, 78
+  offset: 0, 0
+  index: -1
+banner-coke-3
+  rotate: false
+  xy: 195, 48
+  size: 27, 78
+  orig: 27, 78
+  offset: 0, 0
+  index: -1
+banner-floor
+  rotate: false
+  xy: 296, 2
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+banner-neon-1
+  rotate: false
+  xy: 338, 78
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+banner-neon-2
+  rotate: false
+  xy: 359, 78
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+banner-neon-3
+  rotate: false
+  xy: 380, 78
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+banner-neon-4
+  rotate: false
+  xy: 401, 78
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+banner-open
+  rotate: false
+  xy: 482, 82
+  size: 14, 44
+  orig: 14, 44
+  offset: 0, 0
+  index: -1
+banner-scroll-1
+  rotate: false
+  xy: 422, 79
+  size: 13, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+banner-scroll-2
+  rotate: false
+  xy: 437, 79
+  size: 13, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+banner-scroll-3
+  rotate: false
+  xy: 452, 79
+  size: 13, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+banner-scroll-4
+  rotate: false
+  xy: 467, 79
+  size: 13, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+banner-side-1
+  rotate: false
+  xy: 254, 13
+  size: 19, 76
+  orig: 19, 76
+  offset: 0, 0
+  index: -1
+banner-side-2
+  rotate: false
+  xy: 275, 13
+  size: 19, 76
+  orig: 19, 76
+  offset: 0, 0
+  index: -1
+banner-side-3
+  rotate: false
+  xy: 296, 50
+  size: 19, 76
+  orig: 19, 76
+  offset: 0, 0
+  index: -1
+banner-side-4
+  rotate: false
+  xy: 317, 50
+  size: 19, 76
+  orig: 19, 76
+  offset: 0, 0
+  index: -1
+banner-small
+  rotate: false
+  xy: 314, 13
+  size: 13, 35
+  orig: 13, 35
+  offset: 0, 0
+  index: -1
+banner-sushi-1
+  rotate: false
+  xy: 137, 33
+  size: 36, 13
+  orig: 36, 13
+  offset: 0, 0
+  index: -1
+banner-sushi-2
+  rotate: false
+  xy: 338, 63
+  size: 36, 13
+  orig: 36, 13
+  offset: 0, 0
+  index: -1
+banner-sushi-3
+  rotate: false
+  xy: 175, 33
+  size: 36, 13
+  orig: 36, 13
+  offset: 0, 0
+  index: -1
+banners
+  rotate: false
+  xy: 224, 23
+  size: 28, 66
+  orig: 28, 66
+  offset: 0, 0
+  index: -1
+control-box-1
+  rotate: false
+  xy: 66, 2
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+control-box-2
+  rotate: false
+  xy: 329, 21
+  size: 17, 27
+  orig: 17, 27
+  offset: 0, 0
+  index: -1
+control-box-3
+  rotate: false
+  xy: 2, 2
+  size: 62, 30
+  orig: 62, 30
+  offset: 0, 0
+  index: -1
+hotel-sign
+  rotate: false
+  xy: 224, 91
+  size: 68, 35
+  orig: 68, 35
+  offset: 0, 0
+  index: -1
+monitor-face-1
+  rotate: false
+  xy: 376, 58
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+monitor-face-2
+  rotate: false
+  xy: 399, 58
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+monitor-face-3
+  rotate: false
+  xy: 422, 59
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+monitor-face-4
+  rotate: false
+  xy: 445, 59
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+shot-explosion.pack.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+enemy-explosion-1
+  rotate: false
+  xy: 2, 56
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+enemy-explosion-2
+  rotate: false
+  xy: 230, 186
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+enemy-explosion-3
+  rotate: false
+  xy: 344, 316
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+enemy-explosion-4
+  rotate: false
+  xy: 2, 2
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+enemy-explosion-5
+  rotate: false
+  xy: 59, 56
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+enemy-explosion-6
+  rotate: false
+  xy: 230, 132
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+explosion-animation1
+  rotate: false
+  xy: 2, 370
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation2
+  rotate: false
+  xy: 2, 240
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation3
+  rotate: false
+  xy: 116, 370
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation4
+  rotate: false
+  xy: 2, 110
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation5
+  rotate: false
+  xy: 116, 240
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation6
+  rotate: false
+  xy: 230, 370
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation7
+  rotate: false
+  xy: 116, 110
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation8
+  rotate: false
+  xy: 230, 240
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+explosion-animation9
+  rotate: false
+  xy: 344, 370
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+shot-1
+  rotate: false
+  xy: 458, 487
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+shot-2
+  rotate: false
+  xy: 287, 227
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+shot-3
+  rotate: false
+  xy: 344, 303
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+shot-hit-1
+  rotate: false
+  xy: 401, 357
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+shot-hit-2
+  rotate: false
+  xy: 59, 43
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+shot-hit-3
+  rotate: false
+  xy: 116, 97
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1

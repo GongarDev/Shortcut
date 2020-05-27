@@ -1,0 +1,188 @@
+import com.badlogic.gdx.tools.texturepacker.TexturePacker
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
+        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath 'org.robovm:robovm-gradle-plugin:1.8.0'
+        classpath "com.badlogicgames.gdx:gdx-tools:1.7.0"
+
+    }
+}
+
+allprojects {
+    apply plugin: "eclipse"
+    apply plugin: "idea"
+
+    version = '1.0'
+    ext {
+        appName = "ShortCut"
+        gdxVersion = '1.7.0'
+        roboVMVersion = '1.8.0'
+        box2DLightsVersion = '1.4'
+        ashleyVersion = '1.6.0'
+        aiVersion = '1.6.0'
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+        google()
+        jcenter()
+    }
+}
+
+project(":desktop") {
+    apply plugin: "java"
+
+
+    dependencies {
+        implementation project(":core")
+        implementation "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
+        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+    }
+}
+
+project(":android") {
+    apply plugin: "android"
+
+    configurations { natives }
+
+    dependencies {
+        implementation project(":core")
+        implementation "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-armeabi"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-armeabi-v7a"
+        natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
+        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
+    }
+}
+
+project(":ios") {
+    apply plugin: "java"
+    apply plugin: "robovm"
+
+
+    dependencies {
+        implementation project(":core")
+        implementation "org.robovm:robovm-rt:$roboVMVersion"
+        implementation "org.robovm:robovm-cocoatouch:$roboVMVersion"
+        implementation "com.badlogicgames.gdx:gdx-backend-robovm:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-ios"
+        implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
+    }
+}
+
+project(":html") {
+    apply plugin: "gwt"
+    apply plugin: "war"
+
+
+    dependencies {
+        implementation project(":core")
+        implementation "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx:$gdxVersion:sources"
+        implementation "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
+    }
+}
+
+project(":core") {
+    apply plugin: "java"
+
+
+    dependencies {
+        implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+        implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        implementation ('com.googlecode.json-simple:json-simple:1.1.1') {
+            exclude module: 'junit'
+        }
+    }
+
+    task copyLevels(type: Copy){
+        from "../ShortcutLevels/scenes"
+        into "../android/assets/levels"
+        //exclude "MainScene.dt"
+    }
+
+    project.tasks.compileJava.dependsOn copyLevels
+/*
+   task packTextures1 << {
+        def pack1 = new File("android/assets/images/atlas/player.pack.png")
+        pack1.delete()
+        def atlas1 = new File("android/assets/images/atlas/player.pack.atlas")
+        atlas1.delete()
+        TexturePacker.process("android/assets/images/player", "android/assets/images/atlas", "player.pack")
+    }
+
+    task packTextures2 << {
+        def pack2 = new File("android/assets/images/atlas/enemy.pack.png")
+        pack2.delete()
+        def atlas2 = new File("android/assets/images/atlas/enemy.pack.atlas")
+        atlas2.delete()
+        TexturePacker.process("android/assets/images/enemy", "android/assets/images/atlas", "enemy.pack")
+    }
+
+    task packTextures3 << {
+
+        def pack3 = new File("android/assets/images/atlas/shot-explosion.pack.png")
+        pack3.delete()
+        def atlas3 = new File("android/assets/images/atlas/shot-explosion.pack.atlas")
+        atlas3.delete()
+        TexturePacker.process("android/assets/images/shot-explosion", "android/assets/images/atlas", "shot-explosion.pack")
+    }
+
+    task packTextures4 << {
+        def pack4 = new File("android/assets/images/atlas/props.pack.png")
+        pack4.delete()
+        def atlas4 = new File("android/assets/images/atlas/props.pack.atlas")
+        atlas4.delete()
+        TexturePacker.process("android/assets/images/props", "android/assets/images/atlas", "props.pack")
+    }
+
+        task packTextures5 << {
+        def pack5 = new File("android/assets/images/atlas/portal.pack.png")
+        pack5.delete()
+        def atlas5 = new File("android/assets/images/atlas/portal.pack.atlas")
+        atlas5.delete()
+        TexturePacker.process("android/assets/images/portal", "android/assets/images/atlas", "portal.pack")
+    }
+
+        task packTextures6 << {
+        def pack5 = new File("android/assets/images/atlas/button.pack.png")
+        pack5.delete()
+        def atlas5 = new File("android/assets/images/atlas/button.pack.atlas")
+        atlas5.delete()
+        TexturePacker.process("android/assets/images/buttons", "android/assets/images/atlas", "button.pack")
+    }
+*/
+/* project.tasks.compileJava.dependsOn packTextures1
+project.tasks.compileJava.dependsOn packTextures2
+project.tasks.compileJava.dependsOn packTextures3
+project.tasks.compileJava.dependsOn packTextures4
+project.tasks.compileJava.dependsOn packTextures5
+*/
+    task packTextures6 << {
+        def pack5 = new File("android/assets/images/atlas/button.pack.png")
+        pack5.delete()
+        def atlas5 = new File("android/assets/images/atlas/button.pack.atlas")
+        atlas5.delete()
+        TexturePacker.process("android/assets/images/buttons", "android/assets/images/atlas", "button.pack")
+    }
+    project.tasks.compileJava.dependsOn packTextures6
+
+}
+
+tasks.eclipse.doLast {
+    delete ".project"
+}

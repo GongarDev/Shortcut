@@ -1,0 +1,230 @@
+
+portal.pack.png
+size: 1024,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+portal-hold-green1
+  rotate: false
+  xy: 2, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green2
+  rotate: false
+  xy: 32, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green3
+  rotate: false
+  xy: 62, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green4
+  rotate: false
+  xy: 92, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green5
+  rotate: false
+  xy: 122, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green6
+  rotate: false
+  xy: 152, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green7
+  rotate: false
+  xy: 182, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-green8
+  rotate: false
+  xy: 212, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple1
+  rotate: false
+  xy: 482, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple2
+  rotate: false
+  xy: 511, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple3
+  rotate: false
+  xy: 540, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple4
+  rotate: false
+  xy: 569, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple5
+  rotate: false
+  xy: 598, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple6
+  rotate: false
+  xy: 627, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple7
+  rotate: false
+  xy: 656, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-hold-purple8
+  rotate: false
+  xy: 685, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-green1
+  rotate: false
+  xy: 242, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green2
+  rotate: false
+  xy: 272, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green3
+  rotate: false
+  xy: 302, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green4
+  rotate: false
+  xy: 332, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green5
+  rotate: false
+  xy: 362, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green6
+  rotate: false
+  xy: 392, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green7
+  rotate: false
+  xy: 422, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-green8
+  rotate: false
+  xy: 452, 2
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple1
+  rotate: false
+  xy: 714, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple2
+  rotate: false
+  xy: 743, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple3
+  rotate: false
+  xy: 772, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple4
+  rotate: false
+  xy: 801, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple5
+  rotate: false
+  xy: 830, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple6
+  rotate: false
+  xy: 859, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple7
+  rotate: false
+  xy: 888, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+portal-open-purple8
+  rotate: false
+  xy: 917, 2
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
